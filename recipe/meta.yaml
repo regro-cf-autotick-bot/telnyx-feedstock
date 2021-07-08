@@ -1,5 +1,5 @@
 {% set name = "telnyx" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/telnyx-{{ version }}.tar.gz
-  sha256: d30cab648dde2722f5d8e01461317ba3355cdbddf628ec059047f5a8044cdb75
+  sha256: 0bf267a856df8969b56d469d2ca755f162cfe74572231a4ad2c889e726fe6b6c
 
 build:
   noarch: python
